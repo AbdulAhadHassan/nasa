@@ -6,7 +6,7 @@ nav{
 
 nav li{
     list-style-type: none;
-    padding: 0 20px;
+    padding: 0 14px;
     color: white;
     
 
@@ -14,10 +14,15 @@ nav li{
 
 nav h5{
     margin: auto;
+    font-size: larger;
 }
 nav input{
     background-color: black;
     border: 0.25px solid grey;
+    border-radius: 1px;
+}
+nav input::placeholder{
+    padding-left: 15px;
 }
 nav ul{
     margin: 0%;
@@ -28,13 +33,20 @@ nav h5{
 }
 
 .nav-arrow-1{
-    border: 2px solid #ffffff;
+    border: 2px solid grey;
     border-radius: 100%;
-    font-size:xx-small ;
-    font-weight: 900;
+    color: grey;
+    font-size:9px ;
+    font-weight: 900;    
     padding: 3px;
+    margin-left: 6px;  
 }
 
+
+.nav-arrow-2{
+    font-size:x-small ;
+    color: grey;
+}
 .live{
     border: 1px solid #f64137;
     font-size: .65em;
@@ -66,3 +78,26 @@ nav h5{
     }
 }
 
+
+
+
+
+
+
+.slider img{ 
+    
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    opacity: 80%;
+    
+}
+
+.slider-img{
+    
+}
+
+.slider{
+    background-color: black !important ;
+
+}
